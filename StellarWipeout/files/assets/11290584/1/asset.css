@@ -1,0 +1,52 @@
+6<div class='button'>Press me!</div>
+<div class='text'>
+   test list
+</div>
+my css:
+
+.container {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    border-radius: 4px;
+    background-color: #222;
+    opacity:0.8;
+    color: #fff;
+    font-weight: 100;
+    padding: 8px;
+    
+    box-shadow: 0 0 16px rgba(0, 0, 0, .3);
+}
+
+.container > .button {
+    opacity:1;
+    float: left;
+    display: inline-block;
+    background-color: #07f;
+    padding: 0 16px;
+    font-size: 18px;
+    line-height: 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container > .counterBox {
+    float: right;
+}
+
+.container .counter {
+    color: #ff0;
+    font-size: 24px;
+}
+
+.container > .text {
+    
+    margin-top: 52px;
+}
