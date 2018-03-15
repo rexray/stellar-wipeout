@@ -9,7 +9,7 @@ Want to add a new character or your own obstacle? Fork the [project on Playcanva
 ## Run Your Own Local Scoreboard
 
 1. Set up a server for your scoreboard. [WAMP](http://www.wampserver.com/en/), [MAMP](https://www.mamp.info/en/), or similar will work. 
-2. Create a database and table for your scoreboard. We called our database “stellarWipeout_data” and our table ‘sw_highscores’. 
+2. Create a database and table for your scoreboard. We called our database “stellarWipeout_data” and our table "sw_highscores". 
 3. Add an int ‘id’ field and set it to auto increment.
 4. Add a varchar ‘name’ field.
 5. Add an int ‘score’ field.
